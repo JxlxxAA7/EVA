@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="icon" href="./fontawesome/desktop-solid.svg">
+    <script src="../js/codigo.js"></script>
+    <script src="https://kit.fontawesome.com/3cbe551640.js" crossorigin="anonymous"></script>
+    <title>Etiquetes HTML</title>
+</head>
+
+<body>
+
+    <div class="flex" id="header">
+        <div class="column-1">
+            <h1>Etiquetes HTML</h1>
+            <i class="fas fa-tag"></i>
+        </div>
+    </div>
+
+    <div id="navbar">
+        <a href="#section-6">div</a>
+        <a href="#section-5">img</a>
+        <a href="#section-4">a</a>
+        <a href="#section-3">p</a>
+        <a href="#section-2">body</a>
+        <a href="#section-1">Vídeo</a>
+        <a href="#header" class="active"><i class="fas fa-arrow-up"></i></a>
+    </div>
+
+    <div class="row relleno-lateral" id="section-1">
+        <h2>Etiquetes HTML i els seus atributs</h2>
+
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/gaxsPBw-fqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="row relleno-lateral flex" id="section-2">
+        <div class="column-2">
+            <img src="../img/body.JPG">
+        </div>
+        <div class="column-2">
+            <h2>Body i els seus atributs:</h2>
+            <p>L'element "body" es part de l'estructura básica d'un document.</p>
+            <p>L'element "body" es on es posa tot el contingut de la pagina.</p>
+            <p>L'element "body" tenia diferents atributs en versions antigues de HTML.</p>
+            <p>Aquesta etiqueta unicament te atributs generals.</p>
+        </div>
+    </div>
+
+    <div class="row flex relleno-lateral" id="section-3">
+        <div class="column-2">
+            <h2>P i els seus atributs:</h2>
+            <p>La etiqueta "p" s'utilitza per escriure paragrafs a les paginas web.</p>
+            <p>Es important acordarse de tancar les etiquetes ja que si es queden obertes no funcionen com deberien.</p>
+            <p>Aquesta etiqueta unicament te atributs generales: id, style, class, dir y lang.</p>
+        </div>
+        <div class="column-2">
+            <img src="../img/p.JPG">
+        </div>
+    </div>
+
+    <div class="row flex relleno-lateral" id="section-4">
+        <div class="column-2">
+            <img src="../img/A.JPG">
+        </div>
+        <div class="column-2">
+            <h2>A i els seus atributs:</h2>
+            <p>L'elemento "a" crea enllaços a diferents pagines o seccions de la mateixa pagina.</p>
+            <p>Els vincles son la part mes esencial de HTML.</p>
+            <p>Els vincles poeden ser utilitzats, per enllaçar altres documents</p>
+            <p>Els seus atributs son: href y target.</p>
+        </div>
+    </div>
+
+    <div class="row flex relleno-lateral" id="section-5">
+        <div class="column-2">
+            <h2>IMG i els seus atributs:</h2>
+            <p>L'element representa una imatge, es un recurs que s'inserta en el document. </p>
+            <p>Els seus atributs son: src y alt.</p>
+        </div>
+        <div class="column-2">
+            <img src="../img/IMG.JPG">
+        </div>
+    </div>
+
+    <div class="row flex relleno-lateral" id="section-6">
+        <div class="column-2">
+            <img src="../img/DIV.JPG">
+        </div>
+        <div class="column-2">
+            <h2>DIV i els seus atributs:</h2>
+            <p>L'element "div" es una etiqueta sense significat semántic.</p>
+            <p>S'utiliza per dividir seccions i tenir organizat el codi.</p>
+            <p>Els seus atributos son: main, header, footer, nav y article.</p>
+        </div>
+    </div>
+
+    <div class="row" id="section-9">
+        <div class="relleno-lateral column-1">
+            <h3>Selecciona un Idioma:</h3>
+            <select name="language" id="language" onchange="language()">
+                <option value="ES">Español</option>
+                <option value="CA" selected>Català</option>
+            </select>
+        </div>
+    </div>
+</body>
+
+</html>
